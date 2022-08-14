@@ -1,0 +1,29 @@
+{
+  "name": "jkbnerad/volby2022",
+  "description": "",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jakub Nerad",
+      "email": "info@nerad.cz"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "symfony/console": "6.0.*",
+    "ext-dom": "*",
+    "ext-libxml": "*",
+    "ext-xmlreader": "*",
+    "ext-zip": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "phpstan/phpstan": "1.8.x-dev"
+  },
+  "autoload": {
+    "classmap": [
+      "src"
+    ]
+  }
+}
